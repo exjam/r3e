@@ -1,0 +1,9 @@
+uniform sampler2D layer1;
+uniform sampler2D lightmap;
+
+void main (void){
+	vec4 colourL1  = texture2D(layer1, gl_TexCoord[0].st);
+	vec4 colourLM = texture2D(lightmap, gl_TexCoord[1].st);
+	
+	gl_FragColor = (colourL1 * colourLM) * 2.0f;
+}

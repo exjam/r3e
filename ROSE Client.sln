@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{5D0ECB5D-5539-4C23-B2AB-8C13E5D49164}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{ADD5371F-1766-437B-877C-ABDF6834F85E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "R3E", "R3E\R3E.vcxproj", "{B4F8F232-E6B7-4891-9AA9-7585B1FC448B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RGE", "RGE\RGE.vcxproj", "{23E9B773-00E7-47A0-8D8B-34E23BFD34D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RECommon", "RECommon\RECommon.vcxproj", "{69AB56CF-5401-426D-935B-B880D316DBCE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{C872ED04-F0F8-44BB-8796-F18FE57EC3AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RNE", "RNE\RNE.vcxproj", "{ADEB3767-AEBE-4ADA-88DD-78E2D21F530E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release + Debug Info|Win32 = Release + Debug Info|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F8F232-E6B7-4891-9AA9-7585B1FC448B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4F8F232-E6B7-4891-9AA9-7585B1FC448B}.Debug|Win32.Build.0 = Debug|Win32
+		{B4F8F232-E6B7-4891-9AA9-7585B1FC448B}.Release + Debug Info|Win32.ActiveCfg = Release + Debug Info|Win32
+		{B4F8F232-E6B7-4891-9AA9-7585B1FC448B}.Release + Debug Info|Win32.Build.0 = Release + Debug Info|Win32
+		{B4F8F232-E6B7-4891-9AA9-7585B1FC448B}.Release|Win32.ActiveCfg = Release|Win32
+		{B4F8F232-E6B7-4891-9AA9-7585B1FC448B}.Release|Win32.Build.0 = Release|Win32
+		{23E9B773-00E7-47A0-8D8B-34E23BFD34D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23E9B773-00E7-47A0-8D8B-34E23BFD34D2}.Debug|Win32.Build.0 = Debug|Win32
+		{23E9B773-00E7-47A0-8D8B-34E23BFD34D2}.Release + Debug Info|Win32.ActiveCfg = Release + Debug Info|Win32
+		{23E9B773-00E7-47A0-8D8B-34E23BFD34D2}.Release + Debug Info|Win32.Build.0 = Release + Debug Info|Win32
+		{23E9B773-00E7-47A0-8D8B-34E23BFD34D2}.Release|Win32.ActiveCfg = Release|Win32
+		{23E9B773-00E7-47A0-8D8B-34E23BFD34D2}.Release|Win32.Build.0 = Release|Win32
+		{69AB56CF-5401-426D-935B-B880D316DBCE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69AB56CF-5401-426D-935B-B880D316DBCE}.Debug|Win32.Build.0 = Debug|Win32
+		{69AB56CF-5401-426D-935B-B880D316DBCE}.Release + Debug Info|Win32.ActiveCfg = Release + Debug Info|Win32
+		{69AB56CF-5401-426D-935B-B880D316DBCE}.Release + Debug Info|Win32.Build.0 = Release + Debug Info|Win32
+		{69AB56CF-5401-426D-935B-B880D316DBCE}.Release|Win32.ActiveCfg = Release|Win32
+		{69AB56CF-5401-426D-935B-B880D316DBCE}.Release|Win32.Build.0 = Release|Win32
+		{C872ED04-F0F8-44BB-8796-F18FE57EC3AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C872ED04-F0F8-44BB-8796-F18FE57EC3AE}.Debug|Win32.Build.0 = Debug|Win32
+		{C872ED04-F0F8-44BB-8796-F18FE57EC3AE}.Release + Debug Info|Win32.ActiveCfg = Release + Debug Info|Win32
+		{C872ED04-F0F8-44BB-8796-F18FE57EC3AE}.Release + Debug Info|Win32.Build.0 = Release + Debug Info|Win32
+		{C872ED04-F0F8-44BB-8796-F18FE57EC3AE}.Release|Win32.ActiveCfg = Release|Win32
+		{C872ED04-F0F8-44BB-8796-F18FE57EC3AE}.Release|Win32.Build.0 = Release|Win32
+		{ADEB3767-AEBE-4ADA-88DD-78E2D21F530E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADEB3767-AEBE-4ADA-88DD-78E2D21F530E}.Debug|Win32.Build.0 = Debug|Win32
+		{ADEB3767-AEBE-4ADA-88DD-78E2D21F530E}.Release + Debug Info|Win32.ActiveCfg = Release + Debug Info|Win32
+		{ADEB3767-AEBE-4ADA-88DD-78E2D21F530E}.Release + Debug Info|Win32.Build.0 = Release + Debug Info|Win32
+		{ADEB3767-AEBE-4ADA-88DD-78E2D21F530E}.Release|Win32.ActiveCfg = Release|Win32
+		{ADEB3767-AEBE-4ADA-88DD-78E2D21F530E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4F8F232-E6B7-4891-9AA9-7585B1FC448B} = {5D0ECB5D-5539-4C23-B2AB-8C13E5D49164}
+		{23E9B773-00E7-47A0-8D8B-34E23BFD34D2} = {5D0ECB5D-5539-4C23-B2AB-8C13E5D49164}
+		{69AB56CF-5401-426D-935B-B880D316DBCE} = {5D0ECB5D-5539-4C23-B2AB-8C13E5D49164}
+		{ADEB3767-AEBE-4ADA-88DD-78E2D21F530E} = {5D0ECB5D-5539-4C23-B2AB-8C13E5D49164}
+		{C872ED04-F0F8-44BB-8796-F18FE57EC3AE} = {ADD5371F-1766-437B-877C-ABDF6834F85E}
+	EndGlobalSection
+EndGlobal

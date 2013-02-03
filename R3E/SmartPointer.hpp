@@ -1,0 +1,1 @@
+#include "..\RECommon\SmartPointer.hpp"

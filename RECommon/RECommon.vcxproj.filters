@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{f5412863-6f76-4eb0-b457-dbde5066dea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{2ef48ed0-0e17-4782-a388-94ff6d8a8517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{9fc2ae2b-2d98-4235-8156-99193f17b70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{ff6422ea-1483-4068-a245-d3a5f72605b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ROSE">
+      <UniqueIdentifier>{2fb5878f-6701-4a8d-a97e-b25ec484c837}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Log.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Colour.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Log.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeDelete.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopedPointer.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartObject.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointer.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.hpp">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IText.hpp">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferedFile.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferedFileSystem.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="File.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatFile.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatFileSystem.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadWholeFile.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="TitanFile.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="TitanFileSystem.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Colour.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventQueue.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="FastStringMapL2.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="List.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="LockedPool.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pool.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="String.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="StringMap.hpp">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="RoseConstants.hpp">
+      <Filter>ROSE</Filter>
+    </ClInclude>
+    <ClInclude Include="RoseStructs.hpp">
+      <Filter>ROSE</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

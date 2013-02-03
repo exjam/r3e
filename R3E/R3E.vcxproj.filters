@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ROSE">
+      <UniqueIdentifier>{0964e527-a610-4b29-a055-687aeaba2d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ROSE\Files">
+      <UniqueIdentifier>{7792303e-b3ff-41f8-836d-f24b7fcf0d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{03608ac9-6fb7-4fad-b16f-7da805ddb96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{6ea5e8da-d349-4dd7-97d7-e8440578f793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering">
+      <UniqueIdentifier>{15573030-2415-4dda-9544-51bcd990958d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resources">
+      <UniqueIdentifier>{6ac7b868-2903-4282-8d76-5e958090fb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{a03397f9-95b2-465e-977a-edc1ca62a82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Data">
+      <UniqueIdentifier>{aee21796-db55-4118-b844-261973e9dab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Windows">
+      <UniqueIdentifier>{5cd91a44-888f-4cef-b1d4-1070cd53601a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{a9fc70c7-8c58-4fb9-ae26-489f74a18db4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>ROSE</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>ROSE</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionManager.cpp">
+      <Filter>ROSE</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcManager.cpp">
+      <Filter>ROSE</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>ROSE</Filter>
+    </ClCompile>
+    <ClCompile Include="RoseData.cpp">
+      <Filter>ROSE</Filter>
+    </ClCompile>
+    <ClCompile Include="CHR.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIM.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IFO.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LIT.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STB.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STL.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TIL.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZMD.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZMO.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZMS.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZON.cpp">
+      <Filter>ROSE\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="UiRender.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="FontList.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="AvatarEntity.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityGroup.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBlock.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectEntity.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalEntity.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderData.cpp">
+      <Filter>Engine\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Multisample.cpp">
+      <Filter>Engine\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ItemManager.hpp">
+      <Filter>ROSE</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.hpp">
+      <Filter>ROSE</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionManager.hpp">
+      <Filter>ROSE</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcManager.hpp">
+      <Filter>ROSE</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.hpp">
+      <Filter>ROSE</Filter>
+    </ClInclude>
+    <ClInclude Include="RoseData.hpp">
+      <Filter>ROSE</Filter>
+    </ClInclude>
+    <ClInclude Include="CHR.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIM.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IFO.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LIT.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PTL.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STB.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STL.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TIL.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZMD.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZMO.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZMS.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZON.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZSC.hpp">
+      <Filter>ROSE\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="PathCamera.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Range.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SlopeIntMul.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetCamera.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderPair.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="UiRender.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.hpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.hpp">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="FontList.hpp">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.hpp">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.hpp">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.hpp">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarEntity.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityGroup.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBlock.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh1TexEntity.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcEntity.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectEntity.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalEntity.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectShaderData.hpp">
+      <Filter>Engine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShaderData.hpp">
+      <Filter>Engine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Multisample.hpp">
+      <Filter>Engine\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLWindow.hpp">
+      <Filter>Engine\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Colour.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FastStringMapL2.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IText.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="List.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadWholeFile.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RoseConstants.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeDelete.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopedPointer.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartObject.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointer.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="String.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StringMap.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

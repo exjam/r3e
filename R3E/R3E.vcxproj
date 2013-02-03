@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release + Debug Info|Win32">
+      <Configuration>Release + Debug Info</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B4F8F232-E6B7-4891-9AA9-7585B1FC448B}</ProjectGuid>
+    <RootNamespace>R3E</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release + Debug Info|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release + Debug Info|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release + Debug Info|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\Libraries\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling />
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat />
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>IL.lib;ILU.lib;ILUT.lib;zlib.lib;libpng.lib;libjpeg.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Libraries\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\Programming\Projects\R3E\Libraries\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader />
+      <ProgramDataBaseFileName>$(OutDir)vc90.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>ILd.lib;ILUd.lib;ILUTd.lib;libpngd.lib;zlibd.lib;libjpeg.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)d.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\Libraries\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release + Debug Info|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\Libraries\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling />
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>IL.lib;ILU.lib;ILUT.lib;zlib.lib;libpng.lib;libjpeg.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Libraries\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="MotionManager.cpp" />
+    <ClCompile Include="NpcManager.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="RoseData.cpp" />
+    <ClCompile Include="CHR.cpp" />
+    <ClCompile Include="HIM.cpp" />
+    <ClCompile Include="IFO.cpp" />
+    <ClCompile Include="LIT.cpp" />
+    <ClCompile Include="STB.cpp" />
+    <ClCompile Include="STL.cpp" />
+    <ClCompile Include="TIL.cpp" />
+    <ClCompile Include="ZMD.cpp" />
+    <ClCompile Include="ZMO.cpp" />
+    <ClCompile Include="ZMS.cpp" />
+    <ClCompile Include="ZON.cpp" />
+    <ClCompile Include="Matrix4.cpp" />
+    <ClCompile Include="FrameBuffer.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="OpenGL.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="UiRender.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="FontList.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="AvatarEntity.cpp" />
+    <ClCompile Include="EntityGroup.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MapBlock.cpp" />
+    <ClCompile Include="ObjectEntity.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SkeletalEntity.cpp" />
+    <ClCompile Include="ShaderData.cpp" />
+    <ClCompile Include="Multisample.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ItemManager.hpp" />
+    <ClInclude Include="MapManager.hpp" />
+    <ClInclude Include="MotionManager.hpp" />
+    <ClInclude Include="NpcManager.hpp" />
+    <ClInclude Include="ObjectManager.hpp" />
+    <ClInclude Include="RoseData.hpp" />
+    <ClInclude Include="CHR.hpp" />
+    <ClInclude Include="HIM.hpp" />
+    <ClInclude Include="IFO.hpp" />
+    <ClInclude Include="LIT.hpp" />
+    <ClInclude Include="PTL.hpp" />
+    <ClInclude Include="STB.hpp" />
+    <ClInclude Include="STL.hpp" />
+    <ClInclude Include="TIL.hpp" />
+    <ClInclude Include="ZMD.hpp" />
+    <ClInclude Include="ZMO.hpp" />
+    <ClInclude Include="ZMS.hpp" />
+    <ClInclude Include="ZON.hpp" />
+    <ClInclude Include="ZSC.hpp" />
+    <ClInclude Include="BoundingBox.hpp" />
+    <ClInclude Include="BoundingSphere.hpp" />
+    <ClInclude Include="Camera.hpp" />
+    <ClInclude Include="Frustum.hpp" />
+    <ClInclude Include="Math.hpp" />
+    <ClInclude Include="Matrix4.hpp" />
+    <ClInclude Include="PathCamera.hpp" />
+    <ClInclude Include="Plane.hpp" />
+    <ClInclude Include="Project.hpp" />
+    <ClInclude Include="QuadTree.hpp" />
+    <ClInclude Include="Quaternion.hpp" />
+    <ClInclude Include="Random.hpp" />
+    <ClInclude Include="Range.hpp" />
+    <ClInclude Include="Ray.hpp" />
+    <ClInclude Include="SlopeIntMul.hpp" />
+    <ClInclude Include="TargetCamera.hpp" />
+    <ClInclude Include="Vector2.hpp" />
+    <ClInclude Include="Vector3.hpp" />
+    <ClInclude Include="Vector4.hpp" />
+    <ClInclude Include="FrameBuffer.hpp" />
+    <ClInclude Include="IndexBuffer.hpp" />
+    <ClInclude Include="Material.hpp" />
+    <ClInclude Include="OpenGL.hpp" />
+    <ClInclude Include="PixelShader.hpp" />
+    <ClInclude Include="ShaderPair.hpp" />
+    <ClInclude Include="Text.hpp" />
+    <ClInclude Include="UiRender.hpp" />
+    <ClInclude Include="VertexBuffer.hpp" />
+    <ClInclude Include="VertexShader.hpp" />
+    <ClInclude Include="VertexTypes.hpp" />
+    <ClInclude Include="Font.hpp" />
+    <ClInclude Include="FontList.hpp" />
+    <ClInclude Include="Resource.hpp" />
+    <ClInclude Include="ResourceManager.hpp" />
+    <ClInclude Include="Texture.hpp" />
+    <ClInclude Include="AvatarEntity.hpp" />
+    <ClInclude Include="Entity.hpp" />
+    <ClInclude Include="EntityGroup.hpp" />
+    <ClInclude Include="Map.hpp" />
+    <ClInclude Include="MapBlock.hpp" />
+    <ClInclude Include="Mesh1TexEntity.hpp" />
+    <ClInclude Include="NpcEntity.hpp" />
+    <ClInclude Include="ObjectEntity.hpp" />
+    <ClInclude Include="SceneManager.hpp" />
+    <ClInclude Include="SkeletalEntity.hpp" />
+    <ClInclude Include="SkyBox.hpp" />
+    <ClInclude Include="ObjectShaderData.hpp" />
+    <ClInclude Include="TerrainShaderData.hpp" />
+    <ClInclude Include="Multisample.hpp" />
+    <ClInclude Include="OpenGLWindow.hpp" />
+    <ClInclude Include="Array.hpp" />
+    <ClInclude Include="Colour.hpp" />
+    <ClInclude Include="FastStringMapL2.hpp" />
+    <ClInclude Include="FileSystem.hpp" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="IRender.hpp" />
+    <ClInclude Include="IText.hpp" />
+    <ClInclude Include="List.hpp" />
+    <ClInclude Include="Log.hpp" />
+    <ClInclude Include="Point.hpp" />
+    <ClInclude Include="ReadWholeFile.hpp" />
+    <ClInclude Include="RoseConstants.hpp" />
+    <ClInclude Include="SafeDelete.hpp" />
+    <ClInclude Include="ScopedPointer.hpp" />
+    <ClInclude Include="SmartObject.hpp" />
+    <ClInclude Include="SmartPointer.hpp" />
+    <ClInclude Include="String.hpp" />
+    <ClInclude Include="StringMap.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RECommon\RECommon.vcxproj">
+      <Project>{69ab56cf-5401-426d-935b-b880d316dbce}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

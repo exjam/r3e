@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{fe3d70ce-6801-4b5d-acad-346fda93d27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{449e7140-da6b-4b9f-b3f4-019b08bccb99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{084e0583-fb54-431a-bfe6-20b755f486f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{d452046c-3086-448a-86e7-64f2875e3d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{19d3c291-b013-4d8d-bd28-30c74fd38876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{66963e60-7f18-4be1-b81e-99562e7fbd7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Colour.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="File.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IText.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopedPointer.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="String.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StringMap.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UiState.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TSI.hpp">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRes.hpp">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiEvent.hpp">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardEvent.hpp">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.hpp">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslateWin32Event.hpp">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowEvent.hpp">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Caption.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBox.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="IControl.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="IScrollModel.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBox.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioBox.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioButton.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollBar.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollBox.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="TabbedPane.hpp">
+      <Filter>Controls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IRender.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UiState.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="TSI.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRes.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Caption.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogXML.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBox.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBox.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="RadioBox.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="RadioButton.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollBar.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="TabbedPane.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
